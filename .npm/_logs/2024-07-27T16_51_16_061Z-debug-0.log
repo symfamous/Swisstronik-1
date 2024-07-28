@@ -1,0 +1,442 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.4
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/rektguy/sonic-odyssey-bot/.npmrc
+5 silly config:load:file:/home/rektguy/.npmrc
+6 silly config:load:file:/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/rektguy/.npm/_logs/2024-07-27T16_51_16_061Z-
+10 verbose logfile /home/rektguy/.npm/_logs/2024-07-27T16_51_16_061Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @solana/web3.js@^1.93.0
+15 http fetch GET 200 https://registry.npmjs.org/@solana%2fweb3.js 2763ms (cache updated)
+16 silly fetch manifest axios@^1.7.2
+17 http fetch GET 200 https://registry.npmjs.org/axios 61ms (cache revalidated)
+18 silly fetch manifest bip39@^3.1.0
+19 http fetch GET 200 https://registry.npmjs.org/bip39 951ms (cache revalidated)
+20 silly fetch manifest bs58@^5.0.0
+21 http fetch GET 200 https://registry.npmjs.org/bs58 902ms (cache revalidated)
+22 silly fetch manifest colors@^1.4.0
+23 http fetch GET 200 https://registry.npmjs.org/colors 344ms (cache revalidated)
+24 silly fetch manifest ed25519-hd-key@^1.3.0
+25 http fetch GET 200 https://registry.npmjs.org/ed25519-hd-key 946ms (cache revalidated)
+26 silly fetch manifest moment@^2.30.1
+27 http fetch GET 200 https://registry.npmjs.org/moment 48ms (cache revalidated)
+28 silly fetch manifest readline-sync@^1.4.10
+29 http fetch GET 200 https://registry.npmjs.org/readline-sync 912ms (cache revalidated)
+30 silly fetch manifest tweetnacl@^1.0.3
+31 http fetch GET 200 https://registry.npmjs.org/tweetnacl 926ms (cache revalidated)
+32 silly placeDep ROOT @solana/web3.js@1.95.2 OK for: sonic-odyssey-bot@1.0.0 want: ^1.93.0
+33 silly placeDep ROOT axios@1.7.2 OK for: sonic-odyssey-bot@1.0.0 want: ^1.7.2
+34 silly placeDep ROOT bip39@3.1.0 OK for: sonic-odyssey-bot@1.0.0 want: ^3.1.0
+35 silly placeDep ROOT bs58@5.0.0 OK for: sonic-odyssey-bot@1.0.0 want: ^5.0.0
+36 silly placeDep ROOT colors@1.4.0 OK for: sonic-odyssey-bot@1.0.0 want: ^1.4.0
+37 silly placeDep ROOT ed25519-hd-key@1.3.0 OK for: sonic-odyssey-bot@1.0.0 want: ^1.3.0
+38 silly placeDep ROOT moment@2.30.1 OK for: sonic-odyssey-bot@1.0.0 want: ^2.30.1
+39 silly placeDep ROOT readline-sync@1.4.10 OK for: sonic-odyssey-bot@1.0.0 want: ^1.4.10
+40 silly placeDep ROOT tweetnacl@1.0.3 OK for: sonic-odyssey-bot@1.0.0 want: ^1.0.3
+41 silly fetch manifest bs58@^4.0.1
+42 silly fetch manifest bn.js@^5.2.1
+43 silly fetch manifest borsh@^0.7.0
+44 silly fetch manifest buffer@6.0.3
+45 http fetch GET 200 https://registry.npmjs.org/buffer 75ms (cache revalidated)
+46 silly fetch manifest jayson@^4.1.1
+47 http fetch GET 200 https://registry.npmjs.org/borsh 386ms (cache revalidated)
+48 silly fetch manifest node-fetch@^2.7.0
+49 http fetch GET 200 https://registry.npmjs.org/node-fetch 54ms (cache revalidated)
+50 silly fetch manifest superstruct@^2.0.2
+51 http fetch GET 200 https://registry.npmjs.org/bn.js 886ms (cache revalidated)
+52 silly fetch manifest @noble/curves@^1.4.2
+53 http fetch GET 200 https://registry.npmjs.org/jayson 917ms (cache revalidated)
+54 silly fetch manifest @noble/hashes@^1.4.0
+55 http fetch GET 200 https://registry.npmjs.org/superstruct 980ms (cache updated)
+56 silly fetch manifest bigint-buffer@^1.1.5
+57 http fetch GET 200 https://registry.npmjs.org/bigint-buffer 901ms (cache revalidated)
+58 silly fetch manifest @babel/runtime@^7.24.8
+59 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 121ms (cache updated)
+60 silly fetch manifest agentkeepalive@^4.5.0
+61 http fetch GET 200 https://registry.npmjs.org/agentkeepalive 48ms (cache revalidated)
+62 silly fetch manifest rpc-websockets@^9.0.2
+63 http fetch GET 200 https://registry.npmjs.org/@noble%2fcurves 2022ms (cache revalidated)
+64 silly fetch manifest @solana/buffer-layout@^4.0.1
+65 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 2112ms (cache revalidated)
+66 silly fetch manifest fast-stable-stringify@^1.0.0
+67 http fetch GET 200 https://registry.npmjs.org/rpc-websockets 905ms (cache revalidated)
+68 silly fetch manifest form-data@^4.0.0
+69 http fetch GET 200 https://registry.npmjs.org/form-data 42ms (cache revalidated)
+70 silly fetch manifest proxy-from-env@^1.1.0
+71 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 50ms (cache revalidated)
+72 silly fetch manifest follow-redirects@^1.15.6
+73 http fetch GET 200 https://registry.npmjs.org/follow-redirects 51ms (cache revalidated)
+74 silly fetch manifest @noble/hashes@^1.2.0
+75 silly fetch manifest base-x@^4.0.0
+76 http fetch GET 200 https://registry.npmjs.org/fast-stable-stringify 931ms (cache revalidated)
+77 silly fetch manifest create-hmac@1.1.7
+78 http fetch GET 200 https://registry.npmjs.org/base-x 932ms (cache revalidated)
+79 silly fetch manifest tweetnacl@1.0.3
+80 http fetch GET 200 https://registry.npmjs.org/@solana%2fbuffer-layout 1973ms (cache revalidated)
+81 http fetch GET 200 https://registry.npmjs.org/create-hmac 926ms (cache revalidated)
+82 silly fetch manifest encoding@^0.1.0
+83 http fetch GET 200 https://registry.npmjs.org/encoding 49ms (cache revalidated)
+84 silly placeDep ROOT @babel/runtime@7.25.0 OK for: @solana/web3.js@1.95.2 want: ^7.24.8
+85 silly placeDep ROOT @noble/curves@1.4.2 OK for: @solana/web3.js@1.95.2 want: ^1.4.2
+86 silly placeDep ROOT @noble/hashes@1.4.0 OK for: @solana/web3.js@1.95.2 want: ^1.4.0
+87 silly placeDep ROOT @solana/buffer-layout@4.0.1 OK for: @solana/web3.js@1.95.2 want: ^4.0.1
+88 silly placeDep ROOT agentkeepalive@4.5.0 OK for: @solana/web3.js@1.95.2 want: ^4.5.0
+89 silly placeDep ROOT bigint-buffer@1.1.5 OK for: @solana/web3.js@1.95.2 want: ^1.1.5
+90 silly placeDep ROOT bn.js@5.2.1 OK for: @solana/web3.js@1.95.2 want: ^5.2.1
+91 silly placeDep ROOT borsh@0.7.0 OK for: @solana/web3.js@1.95.2 want: ^0.7.0
+92 silly placeDep node_modules/@solana/web3.js bs58@4.0.1 OK for: @solana/web3.js@1.95.2 want: ^4.0.1
+93 silly placeDep ROOT buffer@6.0.3 OK for: @solana/web3.js@1.95.2 want: 6.0.3
+94 silly placeDep ROOT fast-stable-stringify@1.0.0 OK for: @solana/web3.js@1.95.2 want: ^1.0.0
+95 silly placeDep ROOT jayson@4.1.1 OK for: @solana/web3.js@1.95.2 want: ^4.1.1
+96 silly placeDep ROOT node-fetch@2.7.0 OK for: @solana/web3.js@1.95.2 want: ^2.7.0
+97 silly placeDep ROOT rpc-websockets@9.0.2 OK for: @solana/web3.js@1.95.2 want: ^9.0.2
+98 silly placeDep ROOT superstruct@2.0.2 OK for: @solana/web3.js@1.95.2 want: ^2.0.2
+99 silly fetch manifest regenerator-runtime@^0.14.0
+100 silly fetch manifest @noble/hashes@1.4.0
+101 silly fetch manifest buffer@~6.0.3
+102 silly fetch manifest humanize-ms@^1.2.1
+103 silly fetch manifest bindings@^1.3.0
+104 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 45ms (cache revalidated)
+105 silly fetch manifest bs58@^4.0.0
+106 silly fetch manifest text-encoding-utf-8@^1.0.2
+107 http fetch GET 200 https://registry.npmjs.org/humanize-ms 48ms (cache revalidated)
+108 silly fetch manifest base-x@^3.0.2
+109 silly fetch manifest base64-js@^1.3.1
+110 http fetch GET 200 https://registry.npmjs.org/bindings 61ms (cache revalidated)
+111 silly fetch manifest ieee754@^1.2.1
+112 http fetch GET 200 https://registry.npmjs.org/base64-js 52ms (cache revalidated)
+113 silly fetch manifest @types/connect@^3.4.33
+114 http fetch GET 200 https://registry.npmjs.org/ieee754 48ms (cache revalidated)
+115 silly fetch manifest @types/node@^12.12.54
+116 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 98ms (cache revalidated)
+117 silly fetch manifest @types/ws@^7.4.4
+118 http fetch GET 200 https://registry.npmjs.org/@types%2fws 72ms (cache revalidated)
+119 silly fetch manifest commander@^2.20.3
+120 http fetch GET 200 https://registry.npmjs.org/commander 44ms (cache revalidated)
+121 silly fetch manifest delay@^5.0.0
+122 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 305ms (cache updated)
+123 silly fetch manifest es6-promisify@^5.0.0
+124 http fetch GET 200 https://registry.npmjs.org/text-encoding-utf-8 917ms (cache revalidated)
+125 silly fetch manifest eyes@^0.1.8
+126 http fetch GET 200 https://registry.npmjs.org/delay 914ms (cache revalidated)
+127 silly fetch manifest isomorphic-ws@^4.0.1
+128 http fetch GET 200 https://registry.npmjs.org/es6-promisify 944ms (cache revalidated)
+129 silly fetch manifest json-stringify-safe@^5.0.1
+130 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe 63ms (cache revalidated)
+131 silly fetch manifest JSONStream@^1.3.5
+132 http fetch GET 200 https://registry.npmjs.org/eyes 923ms (cache revalidated)
+133 silly fetch manifest uuid@^8.3.2
+134 http fetch GET 200 https://registry.npmjs.org/uuid 46ms (cache revalidated)
+135 silly fetch manifest ws@^7.5.10
+136 http fetch GET 200 https://registry.npmjs.org/ws 43ms (cache revalidated)
+137 silly fetch manifest whatwg-url@^5.0.0
+138 http fetch GET 200 https://registry.npmjs.org/whatwg-url 39ms (cache revalidated)
+139 silly fetch manifest ws@^8.5.0
+140 silly fetch manifest @types/ws@^8.2.2
+141 silly fetch manifest @types/uuid@^8.3.4
+142 http fetch GET 200 https://registry.npmjs.org/@types%2fuuid 41ms (cache revalidated)
+143 silly fetch manifest @swc/helpers@^0.5.11
+144 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 54ms (cache revalidated)
+145 silly fetch manifest eventemitter3@^5.0.1
+146 http fetch GET 200 https://registry.npmjs.org/isomorphic-ws 919ms (cache revalidated)
+147 silly fetch manifest bufferutil@^4.0.1
+148 http fetch GET 200 https://registry.npmjs.org/eventemitter3 42ms (cache revalidated)
+149 silly fetch manifest utf-8-validate@^5.0.2
+150 http fetch GET 200 https://registry.npmjs.org/bufferutil 46ms (cache revalidated)
+151 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 37ms (cache revalidated)
+152 http fetch GET 200 https://registry.npmjs.org/JSONStream 963ms (cache revalidated)
+153 silly placeDep ROOT regenerator-runtime@0.14.1 OK for: @babel/runtime@7.25.0 want: ^0.14.0
+154 silly placeDep ROOT humanize-ms@1.2.1 OK for: agentkeepalive@4.5.0 want: ^1.2.1
+155 silly fetch manifest ms@^2.0.0
+156 http fetch GET 200 https://registry.npmjs.org/ms 38ms (cache revalidated)
+157 silly placeDep ROOT follow-redirects@1.15.6 OK for: axios@1.7.2 want: ^1.15.6
+158 silly placeDep ROOT form-data@4.0.0 OK for: axios@1.7.2 want: ^4.0.0
+159 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.7.2 want: ^1.1.0
+160 silly fetch manifest asynckit@^0.4.0
+161 silly fetch manifest combined-stream@^1.0.8
+162 silly fetch manifest mime-types@^2.1.12
+163 http fetch GET 200 https://registry.npmjs.org/combined-stream 37ms (cache revalidated)
+164 http fetch GET 200 https://registry.npmjs.org/mime-types 38ms (cache revalidated)
+165 http fetch GET 200 https://registry.npmjs.org/asynckit 43ms (cache revalidated)
+166 silly placeDep ROOT bindings@1.5.0 OK for: bigint-buffer@1.1.5 want: ^1.3.0
+167 silly fetch manifest file-uri-to-path@1.0.0
+168 http fetch GET 200 https://registry.npmjs.org/file-uri-to-path 36ms (cache revalidated)
+169 silly placeDep ROOT file-uri-to-path@1.0.0 OK for: bindings@1.5.0 want: 1.0.0
+170 silly placeDep node_modules/borsh bs58@4.0.1 OK for: borsh@0.7.0 want: ^4.0.0
+171 silly placeDep ROOT text-encoding-utf-8@1.0.2 OK for: borsh@0.7.0 want: ^1.0.2
+172 silly placeDep ROOT base-x@4.0.0 OK for: bs58@5.0.0 want: ^4.0.0
+173 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@6.0.3 want: ^1.3.1
+174 silly placeDep ROOT ieee754@1.2.1 OK for: buffer@6.0.3 want: ^1.2.1
+175 silly placeDep ROOT create-hmac@1.1.7 OK for: ed25519-hd-key@1.3.0 want: 1.1.7
+176 silly fetch manifest cipher-base@^1.0.3
+177 silly fetch manifest create-hash@^1.1.0
+178 silly fetch manifest inherits@^2.0.1
+179 http fetch GET 200 https://registry.npmjs.org/inherits 36ms (cache revalidated)
+180 silly fetch manifest ripemd160@^2.0.0
+181 http fetch GET 200 https://registry.npmjs.org/ripemd160 899ms (cache revalidated)
+182 silly fetch manifest safe-buffer@^5.0.1
+183 http fetch GET 200 https://registry.npmjs.org/create-hash 972ms (cache revalidated)
+184 silly fetch manifest sha.js@^2.4.8
+185 http fetch GET 200 https://registry.npmjs.org/safe-buffer 45ms (cache revalidated)
+186 http fetch GET 200 https://registry.npmjs.org/cipher-base 998ms (cache revalidated)
+187 http fetch GET 200 https://registry.npmjs.org/sha.js 941ms (cache revalidated)
+188 silly placeDep ROOT cipher-base@1.0.4 OK for: create-hmac@1.1.7 want: ^1.0.3
+189 silly placeDep ROOT create-hash@1.2.0 OK for: create-hmac@1.1.7 want: ^1.1.0
+190 silly placeDep ROOT inherits@2.0.4 OK for: create-hmac@1.1.7 want: ^2.0.1
+191 silly placeDep ROOT ripemd160@2.0.2 OK for: create-hmac@1.1.7 want: ^2.0.0
+192 silly placeDep ROOT safe-buffer@5.2.1 OK for: create-hmac@1.1.7 want: ^5.0.1
+193 silly placeDep ROOT sha.js@2.4.11 OK for: create-hmac@1.1.7 want: ^2.4.8
+194 silly fetch manifest md5.js@^1.3.4
+195 silly fetch manifest ripemd160@^2.0.1
+196 silly fetch manifest sha.js@^2.4.0
+197 silly fetch manifest hash-base@^3.0.0
+198 http fetch GET 200 https://registry.npmjs.org/hash-base 940ms (cache revalidated)
+199 http fetch GET 200 https://registry.npmjs.org/md5.js 968ms (cache revalidated)
+200 silly placeDep ROOT md5.js@1.3.5 OK for: create-hash@1.2.0 want: ^1.3.4
+201 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.0 want: ^0.4.0
+202 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.0 want: ^1.0.8
+203 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.0 want: ^2.1.12
+204 silly fetch manifest delayed-stream@~1.0.0
+205 silly fetch manifest mime-db@1.52.0
+206 http fetch GET 200 https://registry.npmjs.org/mime-db 43ms (cache revalidated)
+207 http fetch GET 200 https://registry.npmjs.org/delayed-stream 50ms (cache revalidated)
+208 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+209 silly placeDep ROOT ms@2.1.3 OK for: humanize-ms@1.2.1 want: ^2.0.0
+210 silly placeDep ROOT @types/connect@3.4.38 OK for: jayson@4.1.1 want: ^3.4.33
+211 silly placeDep ROOT @types/node@12.20.55 OK for: jayson@4.1.1 want: ^12.12.54
+212 silly placeDep ROOT @types/ws@7.4.7 OK for: jayson@4.1.1 want: ^7.4.4
+213 silly placeDep ROOT commander@2.20.3 OK for: jayson@4.1.1 want: ^2.20.3
+214 silly placeDep ROOT delay@5.0.0 OK for: jayson@4.1.1 want: ^5.0.0
+215 silly placeDep ROOT es6-promisify@5.0.0 OK for: jayson@4.1.1 want: ^5.0.0
+216 silly placeDep ROOT eyes@0.1.8 OK for: jayson@4.1.1 want: ^0.1.8
+217 silly placeDep ROOT isomorphic-ws@4.0.1 OK for: jayson@4.1.1 want: ^4.0.1
+218 silly placeDep ROOT ws@7.5.10 OK for: isomorphic-ws@4.0.1 want: *
+219 silly placeDep ROOT json-stringify-safe@5.0.1 OK for: jayson@4.1.1 want: ^5.0.1
+220 silly placeDep ROOT JSONStream@1.3.5 OK for: jayson@4.1.1 want: ^1.3.5
+221 silly placeDep ROOT uuid@8.3.2 OK for: jayson@4.1.1 want: ^8.3.2
+222 silly fetch manifest @types/node@*
+223 silly fetch manifest es6-promise@^4.0.3
+224 silly fetch manifest through@>=2.2.7 <3
+225 silly fetch manifest jsonparse@^1.2.0
+226 http fetch GET 200 https://registry.npmjs.org/jsonparse 39ms (cache revalidated)
+227 http fetch GET 200 https://registry.npmjs.org/es6-promise 49ms (cache revalidated)
+228 http fetch GET 200 https://registry.npmjs.org/through 54ms (cache revalidated)
+229 silly placeDep ROOT es6-promise@4.2.8 OK for: es6-promisify@5.0.0 want: ^4.0.3
+230 silly placeDep ROOT jsonparse@1.3.1 OK for: JSONStream@1.3.5 want: ^1.2.0
+231 silly placeDep ROOT through@2.3.8 OK for: JSONStream@1.3.5 want: >=2.2.7 <3
+232 silly placeDep ROOT hash-base@3.1.0 OK for: md5.js@1.3.5 want: ^3.0.0
+233 silly fetch manifest readable-stream@^3.6.0
+234 http fetch GET 200 https://registry.npmjs.org/readable-stream 37ms (cache revalidated)
+235 silly placeDep ROOT readable-stream@3.6.2 OK for: hash-base@3.1.0 want: ^3.6.0
+236 silly fetch manifest string_decoder@^1.1.1
+237 silly fetch manifest util-deprecate@^1.0.1
+238 http fetch GET 200 https://registry.npmjs.org/util-deprecate 32ms (cache revalidated)
+239 http fetch GET 200 https://registry.npmjs.org/string_decoder 44ms (cache revalidated)
+240 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+241 silly placeDep ROOT whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+242 silly fetch manifest tr46@~0.0.3
+243 silly fetch manifest webidl-conversions@^3.0.0
+244 http fetch GET 200 https://registry.npmjs.org/tr46 40ms (cache revalidated)
+245 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 40ms (cache revalidated)
+246 silly placeDep ROOT string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+247 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+248 silly placeDep ROOT @swc/helpers@0.5.12 OK for: rpc-websockets@9.0.2 want: ^0.5.11
+249 silly placeDep ROOT @types/uuid@8.3.4 OK for: rpc-websockets@9.0.2 want: ^8.3.4
+250 silly placeDep node_modules/rpc-websockets @types/ws@8.5.11 OK for: rpc-websockets@9.0.2 want: ^8.2.2
+251 silly placeDep ROOT bufferutil@4.0.8 OK for: rpc-websockets@9.0.2 want: ^4.0.1
+252 silly placeDep ROOT eventemitter3@5.0.1 OK for: rpc-websockets@9.0.2 want: ^5.0.1
+253 silly placeDep ROOT utf-8-validate@5.0.10 OK for: rpc-websockets@9.0.2 want: ^5.0.2
+254 silly placeDep node_modules/rpc-websockets ws@8.18.0 OK for: rpc-websockets@9.0.2 want: ^8.5.0
+255 silly fetch manifest tslib@^2.4.0
+256 silly fetch manifest node-gyp-build@^4.3.0
+257 http fetch GET 200 https://registry.npmjs.org/node-gyp-build 33ms (cache revalidated)
+258 http fetch GET 200 https://registry.npmjs.org/tslib 37ms (cache revalidated)
+259 silly placeDep ROOT tslib@2.6.3 OK for: @swc/helpers@0.5.12 want: ^2.4.0
+260 silly placeDep ROOT node-gyp-build@4.8.1 OK for: bufferutil@4.0.8 want: ^4.3.0
+261 silly placeDep ROOT tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+262 silly placeDep ROOT webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+263 silly placeDep node_modules/@solana/web3.js base-x@3.0.10 OK for: bs58@4.0.1 want: ^3.0.2
+264 silly placeDep node_modules/borsh base-x@3.0.10 OK for: bs58@4.0.1 want: ^3.0.2
+265 silly reify moves {}
+266 silly audit bulk request {
+266 silly audit   '@solana/web3.js': [ '1.95.2' ],
+266 silly audit   axios: [ '1.7.2' ],
+266 silly audit   bip39: [ '3.1.0' ],
+266 silly audit   bs58: [ '5.0.0', '4.0.1' ],
+266 silly audit   colors: [ '1.4.0' ],
+266 silly audit   'ed25519-hd-key': [ '1.3.0' ],
+266 silly audit   moment: [ '2.30.1' ],
+266 silly audit   'readline-sync': [ '1.4.10' ],
+266 silly audit   tweetnacl: [ '1.0.3' ],
+266 silly audit   '@babel/runtime': [ '7.25.0' ],
+266 silly audit   '@noble/curves': [ '1.4.2' ],
+266 silly audit   '@noble/hashes': [ '1.4.0' ],
+266 silly audit   '@solana/buffer-layout': [ '4.0.1' ],
+266 silly audit   agentkeepalive: [ '4.5.0' ],
+266 silly audit   'bigint-buffer': [ '1.1.5' ],
+266 silly audit   'bn.js': [ '5.2.1' ],
+266 silly audit   borsh: [ '0.7.0' ],
+266 silly audit   buffer: [ '6.0.3' ],
+266 silly audit   'fast-stable-stringify': [ '1.0.0' ],
+266 silly audit   jayson: [ '4.1.1' ],
+266 silly audit   'node-fetch': [ '2.7.0' ],
+266 silly audit   'rpc-websockets': [ '9.0.2' ],
+266 silly audit   superstruct: [ '2.0.2' ],
+266 silly audit   'regenerator-runtime': [ '0.14.1' ],
+266 silly audit   'humanize-ms': [ '1.2.1' ],
+266 silly audit   'follow-redirects': [ '1.15.6' ],
+266 silly audit   'form-data': [ '4.0.0' ],
+266 silly audit   'proxy-from-env': [ '1.1.0' ],
+266 silly audit   bindings: [ '1.5.0' ],
+266 silly audit   'file-uri-to-path': [ '1.0.0' ],
+266 silly audit   'text-encoding-utf-8': [ '1.0.2' ],
+266 silly audit   'base-x': [ '4.0.0', '3.0.10' ],
+266 silly audit   'base64-js': [ '1.5.1' ],
+266 silly audit   ieee754: [ '1.2.1' ],
+266 silly audit   'create-hmac': [ '1.1.7' ],
+266 silly audit   'cipher-base': [ '1.0.4' ],
+266 silly audit   'create-hash': [ '1.2.0' ],
+266 silly audit   inherits: [ '2.0.4' ],
+266 silly audit   ripemd160: [ '2.0.2' ],
+266 silly audit   'safe-buffer': [ '5.2.1' ],
+266 silly audit   'sha.js': [ '2.4.11' ],
+266 silly audit   'md5.js': [ '1.3.5' ],
+266 silly audit   asynckit: [ '0.4.0' ],
+266 silly audit   'combined-stream': [ '1.0.8' ],
+266 silly audit   'mime-types': [ '2.1.35' ],
+266 silly audit   'delayed-stream': [ '1.0.0' ],
+266 silly audit   ms: [ '2.1.3' ],
+266 silly audit   '@types/connect': [ '3.4.38' ],
+266 silly audit   '@types/node': [ '12.20.55' ],
+266 silly audit   '@types/ws': [ '7.4.7', '8.5.11' ],
+266 silly audit   commander: [ '2.20.3' ],
+266 silly audit   delay: [ '5.0.0' ],
+266 silly audit   'es6-promisify': [ '5.0.0' ],
+266 silly audit   eyes: [ '0.1.8' ],
+266 silly audit   'isomorphic-ws': [ '4.0.1' ],
+266 silly audit   ws: [ '7.5.10', '8.18.0' ],
+266 silly audit   'json-stringify-safe': [ '5.0.1' ],
+266 silly audit   JSONStream: [ '1.3.5' ],
+266 silly audit   uuid: [ '8.3.2' ],
+266 silly audit   'es6-promise': [ '4.2.8' ],
+266 silly audit   jsonparse: [ '1.3.1' ],
+266 silly audit   through: [ '2.3.8' ],
+266 silly audit   'hash-base': [ '3.1.0' ],
+266 silly audit   'readable-stream': [ '3.6.2' ],
+266 silly audit   'mime-db': [ '1.52.0' ],
+266 silly audit   'whatwg-url': [ '5.0.0' ],
+266 silly audit   string_decoder: [ '1.3.0' ],
+266 silly audit   'util-deprecate': [ '1.0.2' ],
+266 silly audit   '@swc/helpers': [ '0.5.12' ],
+266 silly audit   '@types/uuid': [ '8.3.4' ],
+266 silly audit   bufferutil: [ '4.0.8' ],
+266 silly audit   eventemitter3: [ '5.0.1' ],
+266 silly audit   'utf-8-validate': [ '5.0.10' ],
+266 silly audit   tslib: [ '2.6.3' ],
+266 silly audit   'node-gyp-build': [ '4.8.1' ],
+266 silly audit   tr46: [ '0.0.3' ],
+266 silly audit   'webidl-conversions': [ '3.0.1' ]
+266 silly audit }
+267 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.25.0.tgz. Extracting by manifest.
+268 silly tarball no local data for @solana/web3.js@https://registry.npmjs.org/@solana/web3.js/-/web3.js-1.95.2.tgz. Extracting by manifest.
+269 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 430ms
+270 silly audit report {}
+271 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.25.0.tgz 1187ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/@solana/web3.js/-/web3.js-1.95.2.tgz 1587ms (cache miss)
+273 info run bigint-buffer@1.1.5 install node_modules/bigint-buffer npm run rebuild || echo "Couldn't build bindings. Non-native version used."
+274 info run bufferutil@4.0.8 install node_modules/bufferutil node-gyp-build
+275 info run utf-8-validate@5.0.10 install node_modules/utf-8-validate node-gyp-build
+276 info run bufferutil@4.0.8 install { code: 0, signal: null }
+277 info run utf-8-validate@5.0.10 install { code: 0, signal: null }
+278 info run bigint-buffer@1.1.5 install { code: 0, signal: null }
+279 silly ADD node_modules/webidl-conversions
+280 silly ADD node_modules/tr46
+281 silly ADD node_modules/node-gyp-build
+282 silly ADD node_modules/tslib
+283 silly ADD node_modules/utf-8-validate
+284 silly ADD node_modules/eventemitter3
+285 silly ADD node_modules/bufferutil
+286 silly ADD node_modules/@types/uuid
+287 silly ADD node_modules/@swc/helpers
+288 silly ADD node_modules/util-deprecate
+289 silly ADD node_modules/string_decoder
+290 silly ADD node_modules/whatwg-url
+291 silly ADD node_modules/mime-db
+292 silly ADD node_modules/readable-stream
+293 silly ADD node_modules/hash-base
+294 silly ADD node_modules/through
+295 silly ADD node_modules/jsonparse
+296 silly ADD node_modules/es6-promise
+297 silly ADD node_modules/uuid
+298 silly ADD node_modules/JSONStream
+299 silly ADD node_modules/json-stringify-safe
+300 silly ADD node_modules/ws
+301 silly ADD node_modules/isomorphic-ws
+302 silly ADD node_modules/eyes
+303 silly ADD node_modules/es6-promisify
+304 silly ADD node_modules/delay
+305 silly ADD node_modules/commander
+306 silly ADD node_modules/@types/ws
+307 silly ADD node_modules/@types/node
+308 silly ADD node_modules/@types/connect
+309 silly ADD node_modules/ms
+310 silly ADD node_modules/delayed-stream
+311 silly ADD node_modules/mime-types
+312 silly ADD node_modules/combined-stream
+313 silly ADD node_modules/asynckit
+314 silly ADD node_modules/md5.js
+315 silly ADD node_modules/sha.js
+316 silly ADD node_modules/safe-buffer
+317 silly ADD node_modules/ripemd160
+318 silly ADD node_modules/inherits
+319 silly ADD node_modules/create-hash
+320 silly ADD node_modules/cipher-base
+321 silly ADD node_modules/create-hmac
+322 silly ADD node_modules/ieee754
+323 silly ADD node_modules/base64-js
+324 silly ADD node_modules/base-x
+325 silly ADD node_modules/text-encoding-utf-8
+326 silly ADD node_modules/file-uri-to-path
+327 silly ADD node_modules/bindings
+328 silly ADD node_modules/proxy-from-env
+329 silly ADD node_modules/form-data
+330 silly ADD node_modules/follow-redirects
+331 silly ADD node_modules/humanize-ms
+332 silly ADD node_modules/regenerator-runtime
+333 silly ADD node_modules/superstruct
+334 silly ADD node_modules/rpc-websockets
+335 silly ADD node_modules/rpc-websockets/node_modules/ws
+336 silly ADD node_modules/rpc-websockets/node_modules/@types/ws
+337 silly ADD node_modules/node-fetch
+338 silly ADD node_modules/jayson
+339 silly ADD node_modules/fast-stable-stringify
+340 silly ADD node_modules/buffer
+341 silly ADD node_modules/borsh
+342 silly ADD node_modules/borsh/node_modules/base-x
+343 silly ADD node_modules/borsh/node_modules/bs58
+344 silly ADD node_modules/bn.js
+345 silly ADD node_modules/bigint-buffer
+346 silly ADD node_modules/agentkeepalive
+347 silly ADD node_modules/@solana/buffer-layout
+348 silly ADD node_modules/@noble/hashes
+349 silly ADD node_modules/@noble/curves
+350 silly ADD node_modules/@babel/runtime
+351 silly ADD node_modules/tweetnacl
+352 silly ADD node_modules/readline-sync
+353 silly ADD node_modules/moment
+354 silly ADD node_modules/ed25519-hd-key
+355 silly ADD node_modules/colors
+356 silly ADD node_modules/bs58
+357 silly ADD node_modules/bip39
+358 silly ADD node_modules/axios
+359 silly ADD node_modules/@solana/web3.js
+360 silly ADD node_modules/@solana/web3.js/node_modules/base-x
+361 silly ADD node_modules/@solana/web3.js/node_modules/bs58
+362 verbose exit 0
+363 info ok

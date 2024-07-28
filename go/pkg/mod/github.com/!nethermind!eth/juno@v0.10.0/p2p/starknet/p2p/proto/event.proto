@@ -1,0 +1,27 @@
+syntax = "proto3";
+import "p2p/proto/common.proto";
+
+message Event {
+    Hash transaction_hash = 1;
+    Felt252  from_address = 2;
+    repeated Felt252 keys = 3;
+    repeated Felt252 data = 4;
+}
+
+message EventsRequest {
+    Iteration iteration = 1;
+}
+
+message Events {
+    repeated Event items = 1;
+}
+
+// can be several in a single reply
+message EventsResponse {
+    optional BlockID id = 1; // may not appear if Fin is sent to end the whole response
+
+    oneof responses {
+        Events events = 2;
+        Fin    fin    = 3;
+    }
+}

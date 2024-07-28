@@ -1,0 +1,31 @@
+name: starknet-rs tests
+
+on:
+  workflow_call:
+    secrets:
+      STARKNET_RPC:
+        required: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        with:
+          repository: xJonathanLEI/starknet-rs
+          ref: 0df9ad3417a5f10d486348737fe75659ca4bcfdc
+
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+          override: true
+
+      - name: Run jsonrpc tests
+        run: |
+          cd starknet-providers && cargo test jsonrpc
+          cd ../starknet-accounts && cargo test jsonrpc
+        env:
+          STARKNET_RPC: ${{ secrets.STARKNET_RPC }}
